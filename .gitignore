@@ -1,0 +1,11 @@
+
+
+# Fichiers de configuration et plugins
+.terraform/
+
+# Fichiers d'état (CRITIQUE : contient des secrets)
+*.tfstate
+*.tfstate.*
+
+# Fichiers de variables sensibles
+*.tfvars
